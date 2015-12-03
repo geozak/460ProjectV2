@@ -10,11 +10,12 @@
 
     <div class="row">
         <div class="col-md-4">
+            Some super fancy text and descriptions here.
         </div>
         <div class="col-md-4">
-        </div>
+            maybe here too..</div>
         <div class="col-md-4">
-        </div>
+            ..and also here. </div>
     </div>
 
 </asp:Content>
