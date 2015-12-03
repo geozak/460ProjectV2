@@ -1,0 +1,2 @@
+geozak
+minnipu
