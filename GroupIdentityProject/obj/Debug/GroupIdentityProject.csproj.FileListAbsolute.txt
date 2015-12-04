@@ -50,3 +50,8 @@ c:\users\bkirby\documents\visual studio 2013\Projects\GroupIdentityProject\Group
 c:\users\bkirby\documents\visual studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\obj\Debug\GroupIdentityProject.csprojResolveAssemblyReference.cache
 c:\users\bkirby\documents\visual studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\obj\Debug\GroupIdentityProject.dll
 c:\users\bkirby\documents\visual studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\obj\Debug\GroupIdentityProject.pdb
+C:\Users\bkirby\Documents\Visual Studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\bin\SendGrid.dll
+C:\Users\bkirby\Documents\Visual Studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\bin\SendGrid.SmtpApi.dll
+C:\Users\bkirby\Documents\Visual Studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\bin\SendGridMail.dll
+C:\Users\bkirby\Documents\Visual Studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\bin\System.Net.Http.Formatting.dll
+C:\Users\bkirby\Documents\Visual Studio 2013\Projects\GroupIdentityProject\GroupIdentityProject\bin\System.Net.Http.Formatting.xml
