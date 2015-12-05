@@ -13,10 +13,30 @@ namespace GroupIdentityProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DataView dataView = (DataView)ProfileDataSource.Select(DataSourceSelectArguments.Empty);
-            foreach (DataRowView dataRowView in dataView)
+            DataView dataViewUserName = (DataView)ProfileDataSource.Select(DataSourceSelectArguments.Empty);
+            foreach (DataRowView dataRowView in dataViewUserName)
             {
                 UserNameLabel.Text = dataRowView["UserName"].ToString();
+                
+
+            }
+
+            DataView dataViewConfirm = (DataView)ProfileDataSource.Select(DataSourceSelectArguments.Empty);
+            foreach (DataRowView dataRowView in dataViewConfirm)
+            {
+                
+                pwConfirmLabel.Text = dataRowView["EmailConfirmed"].ToString();
+
+            }
+            DataView dataViewPhonenumbe = (DataView)ProfileDataSource.Select(DataSourceSelectArguments.Empty);
+            foreach (DataRowView dataRowView in dataViewConfirm)
+            {
+                
+                    PhoneNumberLabel.Text = dataRowView["PhoneNumber"].ToString();
+                if(PhoneNumberLabel.Text == null)
+                    PhoneNumberLabel.Text = "Phone number not set";
+                
+
             }
 
             // UserNameLable.Text = System.Web.HttpContext.Current.User.Identity.Name;

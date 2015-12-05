@@ -22,13 +22,13 @@ namespace GroupIdentityProject {
         protected global::System.Web.UI.WebControls.Label UserNameLabel;
         
         /// <summary>
-        /// EmailLabel control.
+        /// PhoneNumberLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EmailLabel;
+        protected global::System.Web.UI.WebControls.Label PhoneNumberLabel;
         
         /// <summary>
         /// pwConfirmLabel control.
@@ -47,5 +47,23 @@ namespace GroupIdentityProject {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource ProfileDataSource;
+        
+        /// <summary>
+        /// EmailConfirmedDataSource control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource EmailConfirmedDataSource;
+        
+        /// <summary>
+        /// PhoneNumberDataSource control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource PhoneNumberDataSource;
     }
 }
