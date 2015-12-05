@@ -12,6 +12,7 @@ using System.Net;
 using System.Configuration;
 using System.Diagnostics;
 using System.Net.Mail;
+using GroupIdentityProject.App_Code;
 
 
 
@@ -62,7 +63,19 @@ namespace GroupIdentityProject
         public Task SendAsync(IdentityMessage message)
         {
             // Plug in your SMS service here to send a text message.
+            //return Task.FromResult(0);
+            
+            // ASPSMS Begin 
+            var soapSms = new GroupIdentityProject.ASPSMSX2.ASPSMSX2SoapClient("ASPSMSX2Soap");
+            soapSms.SendSimpleTextSMS(
+              Keys.SMSAccountIdentification,
+              Keys.SMSAccountPassword,
+              message.Destination,
+              Keys.SMSAccountFrom,
+              message.Body);
+            soapSms.Close();
             return Task.FromResult(0);
+            // ASPSMS End
         }
     }
 
