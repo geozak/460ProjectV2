@@ -16,7 +16,7 @@ namespace GroupIdentityProject
             DataView dataView = (DataView)ProfileDataSource.Select(DataSourceSelectArguments.Empty);
             foreach (DataRowView dataRowView in dataView)
             {
-                UserNameLable.Text = dataRowView["UserName"].ToString();
+                UserNameLabel.Text = dataRowView["UserName"].ToString();
             }
 
             // UserNameLable.Text = System.Web.HttpContext.Current.User.Identity.Name;
